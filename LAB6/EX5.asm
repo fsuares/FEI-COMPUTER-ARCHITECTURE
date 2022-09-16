@@ -1,0 +1,12 @@
+MOV 30h, #22h
+MOV 31h, #12h
+MOV 32h, #11h
+MOV 33h, #33h
+MOV 34h, #7h
+
+MOV R1, #34h
+
+SOMA:
+ADD A, @R1
+DEC R1
+CJNE R1, #2Fh, SOMA

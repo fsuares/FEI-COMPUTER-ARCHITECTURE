@@ -1,0 +1,5 @@
+MOV R5, #240
+MOV R6, #128
+MOV A, R5
+ADD A, R6
+MOV R0, A

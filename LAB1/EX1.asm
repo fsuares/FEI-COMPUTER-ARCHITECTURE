@@ -1,0 +1,10 @@
+MOV 30H, #20H ; A
+MOV 40H, #0FFH ; B
+MOV R4, #30H ; C
+MOV 50H, #30H ; D
+MOV A, R4 ; E
+DEC A ; F
+INC R4 ; G
+ADD A, R4 ; H1
+MOV R2, A ; H2
+MOV A, #0 ; I

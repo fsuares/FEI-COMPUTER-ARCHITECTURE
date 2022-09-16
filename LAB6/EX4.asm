@@ -1,0 +1,18 @@
+MOV R0, #20h
+MOV 20h, #5h
+MOV 21h, #7h
+MOV A, 20h
+
+CJNE A, 21h, CONT
+
+CONT:
+JNC MAIOR
+JC MENOR
+
+MAIOR:
+MOV 31h, 20h
+MOV 30h, 21h
+
+MENOR:
+MOV 31h, 21h
+MOV 30h,
